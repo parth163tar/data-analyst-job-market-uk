@@ -1,42 +1,91 @@
 📊 UK Data Analyst Job Market Dashboard – Birmingham Focus (Power BI)
 
-A professional Power BI dashboard analysing the Data Analyst job market in Birmingham, UK.
-Built using real job posting data, with skills extraction, salary analysis, and hiring trends.
+A real-world end-to-end analytics project analyzing Data Analyst job postings in Birmingham, UK.
 
-This project highlights strong skills in:
+This project presents a full Power BI dashboard built using real job posting data, enriched with Python-based preprocessing and skill extraction.
+It is designed to showcase practical data analysis, BI visualisation, storytelling, and job market intelligence — key skills expected from modern Data Analysts.
 
-Data cleaning
+🚀 Project Objectives
 
-Data modelling
+This project answers critical job market questions:
 
-Skills extraction (Python)
+📌 How many Data Analyst roles are currently available in Birmingham?
 
-Power BI visualisation
+📌 What skills are most in-demand?
 
-Dashboard design
+📌 Which companies hire the most Data Analysts?
 
-Job market analytics
+📌 What salary ranges do employers offer?
 
-🚀 Dashboard Overview
+📌 How has job demand changed over time?
 
-The dashboard answers key questions:
+The dashboard is designed to support students, job seekers, and career analysts in understanding hiring trends in the UK.
 
-How many Data Analyst roles exist in Birmingham?
+🧩 Dashboard Overview (Power BI)
+✔ 1. KPI Summary
 
-What skills are most in-demand?
+Key metrics extracted from postings:
 
-Which companies are hiring the most?
+Total Jobs: 47
 
-What salary ranges are advertised?
+Average Salary: £48.69K
 
-How is demand changing over time?
+Jobs with Salary Info: 47
 
-📌 Key Insights
-🔹 Total Jobs: 47
-🔹 Average Salary: £48.6K
-🔹 Cities Covered: 6 local Birmingham areas
-🔹 Most Requested Skills: Power BI, Excel, SQL
-🔹 Top Hiring Companies:
+Distinct Cities/Areas: 6
+
+These KPIs give an instant snapshot of the Birmingham data analyst market.
+
+✔ 2. Birmingham Job Hotspot Map
+
+A location-based view showing hiring distribution across areas like:
+
+Birmingham
+
+Bournbrook
+
+Balsall Heath
+
+Ladywood
+
+Lozells
+…and more.
+
+This visual highlights local demand clusters across the Birmingham region.
+
+✔ 3. Job Posting Trend Over Time
+
+A line chart displaying monthly job posting activity.
+
+Insight:
+
+Demand dipped between July–October.
+
+A sharp rise occurred in November → 40 job postings.
+
+This helps identify seasonal hiring behaviour.
+
+✔ 4. Top Skills in Demand
+
+Skills extracted and ranked from job descriptions using Python NLP.
+
+Top Skill Mentions:
+
+Power BI (14.9 mentions)
+
+Excel (8.5)
+
+Business Analysis (6.4)
+
+SQL (6.4)
+
+Azure (2.1)
+
+These insights reveal what employers expect from a Data Analyst in Birmingham.
+
+✔ 5. Top Hiring Companies
+
+Most active recruiters include:
 
 TOnlineLearning Recruitment
 
@@ -46,42 +95,135 @@ Cooper Moss Rutland
 
 Hays Specialist Recruitment
 
-🔹 Hiring trend shows a strong spike in November
-🧩 Dashboard Sections
-1. KPI Summary
+Michael Page
 
-Total job count
+ITOL Recruit
 
-Average salary
-
-Job postings with salary
-
-Distinct cities
-
-2. UK/Birmingham Job Hotspots Map
-
-Visualises local hiring clusters across Birmingham.
-
-3. Job Posting Trend Over Time
-
-Shows changes in monthly job demand.
-
-4. Top Skills in Demand
-
-Extracted from job descriptions using Python NLP.
-
-5. Top Hiring Companies
-
-Highlights companies actively recruiting.
+This helps candidates target the right employers.
 
 🛠 Tech Stack
+Power BI
 
-Power BI (data modelling & visual design)
+Data modelling
 
-Python (data cleaning, skill extraction)
+DAX measures
 
-Pandas, NumPy
+Interactive dashboards
 
-BeautifulSoup / Requests (if scraping)
+Deloitte-style corporate theme (custom JSON)
 
-JSON Themes (Deloitte-style theme)
+Python
+
+Pandas (cleaning, transformation)
+
+Regex + NLP (skill extraction)
+
+Data enrichment
+
+CSV outputs for Power BI
+
+Other Tools
+
+GitHub
+
+Excel
+
+Power Query
+
+📁 Repository Structure
+data-analyst-job-market-uk/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── powerbi/
+│   ├── dashboard.pbix
+│   └── Deloitte_Blue_Theme.json
+│
+├── screenshots/
+│   ├── dashboard_overview.png
+│   ├── kpi_cards.png
+│   ├── map_skills.png
+│   └── companies_trend.png
+│
+├── notebooks/
+│   ├── skill_extraction.ipynb
+│   └── data_cleaning.ipynb
+│
+└── README.md
+
+📸 Dashboard Preview
+
+(Upload PNG screenshots into the screenshots/ folder, then reference them here)
+
+Example:
+
+![Dashboard Overview](screenshots/dashboard_overview.png)
+![Top Skills](screenshots/kpi_cards.png)
+![Company Hiring](screenshots/companies_trend.png)
+
+🔍 Project Workflow
+
+Data Collection
+
+Job postings collected from multiple UK platforms.
+
+Data Cleaning (Python)
+
+Salary standardisation
+
+Date formatting
+
+Null handling
+
+Location extraction
+
+Skill Extraction
+
+Text parsing from job descriptions
+
+Skill dictionary matching (SQL, Python, Excel, Power BI, etc.)
+
+Skill frequency counts
+
+Power BI Modelling
+
+KPI measures
+
+Date modelling
+
+Category hierarchies
+
+Skill bar charts
+
+Company breakdown
+
+Dashboard Design
+
+Corporate Deloitte-style theme
+
+Clean layout
+
+Slicers for City, Contract Type, Skills
+
+Optimised spacing and alignment
+
+🎯 Key Takeaways for Recruiters
+
+Demonstrates strong Power BI dashboard development
+
+Hands-on Python + analytics project execution
+
+Real-world data modelling & data cleaning experience
+
+Ability to extract insights from job market datasets
+
+Focus on career intelligence, valuable for HR / recruitment / analytics roles
+
+📬 Contact
+
+If you're interested in the underlying dataset, methodology, or collaboration — feel free to reach out!
+
+Parth Sharma
+Data Analyst & Information Systems Graduate

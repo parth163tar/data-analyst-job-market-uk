@@ -155,9 +155,7 @@ data-analyst-job-market-uk/
 
 📸 Dashboard Preview
 
-(Upload PNG screenshots into the screenshots/ folder, then reference them here)
 
-Example:
 
 ![Dashboard Overview](screenshots/dashboard_overview.png)
 ![Top Skills](screenshots/kpi_cards.png)

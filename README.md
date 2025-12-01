@@ -159,7 +159,9 @@ data-analyst-job-market-uk/
 
 ![Dashboard Overview](screenshots/dashboard_overview.png)
 ![Top Skills](screenshots/kpi_cards.png)
-![Company Hiring](screenshots/companies_trend.png)
+![Company Hiring](screenshots/company_chart.png)
+![Skills](screenshots/skills_chart.png)
+![Map](screenshots/map.png)
 
 🔍 Project Workflow
 
